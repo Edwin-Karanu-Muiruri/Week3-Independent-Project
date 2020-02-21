@@ -38,7 +38,7 @@
 #portfolio{
     column-gap: 20px;
 }
-.col-2{
+.col-md-2{
     padding: 10px;
     margin: 10px;
     border: 10px;
@@ -51,6 +51,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+}
+.col-md-2 img{
+    margin: 20px;
+    width: 100%
 }
 .welcome{
     color: white;
