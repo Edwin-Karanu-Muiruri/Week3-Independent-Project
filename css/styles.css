@@ -35,9 +35,27 @@
 .portfolio{
     text-align: center;
 }
+#portfolio{
+    column-gap: 20px;
+}
+.col-2{
+    padding: 10px;
+    margin: 10px;
+    border: 10px;
+    width: 30px;
+}
+.contactSection{
+    background-image: url(../img/c_image.jpg);
+    height: auto;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
 .welcome{
     color: white;
 }
-.services{
+.services, .contact{
     color: white;
 }
+
