@@ -4,6 +4,10 @@
     width: auto;
     background-repeat: no-repeat;
     background-size: cover;
+    text-align:center;
+}
+.aboutUs{
+    text-align:center;
 }
 .servicesSection{
     background-image: url(../img/s_image.jpg);
@@ -11,4 +15,11 @@
     width: auto;
     background-repeat: no-repeat;
     background-size: cover;
+    text-align:center;
+}
+.welcome{
+    color: white;
+}
+.services{
+    color: white;
 }
