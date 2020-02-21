@@ -1,0 +1,14 @@
+.landingSection{
+    background-image: url(../img/h_img.jpg);
+    height: auto;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.servicesSection{
+    background-image: url(../img/s_image.jpg);
+    height: auto;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
