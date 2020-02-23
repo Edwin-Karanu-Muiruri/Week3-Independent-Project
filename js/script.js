@@ -16,4 +16,7 @@ $(document).ready(function(){
     }, function(){
         $(this).find(".hoverCaption").fadeOut(30);
     });
+    $( "#submitButton" ).click(function() {
+        alert( "Your Message has been successfully sent! Thank you for contacting us. Check your email for our reply shortly." );
+      });
 });
