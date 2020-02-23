@@ -44,14 +44,6 @@
     border: 10px;
     width: 30px;
 }
-.contactSection{
-    background-image: url(../img/c_image.jpg);
-    height: auto;
-    width: auto;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-}
 .col-md-2 img{
     margin: 20px;
     width: 100%
@@ -71,6 +63,12 @@
     margin-left: 160px;
     margin-right: 60px;
 }
+#contactSection, #userName, #userEmail, #inputtedTextFromContactingUser{
+    color: white; 
+}
+.form-group placeholder{
+    color: white;
+}
 .hoverCaption{
     position: absolute;
     text-align: center;
@@ -82,5 +80,41 @@
     position: absolute;
     color: black;
     text-align: center;
+    top: 50%;
+    width: 100%;
+}
+#divContactSection{
+    background-image: url(../img/c_image.jpg);
+    height: auto;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 60px;
+}
+
+.transparent-input{
+    background-color: rgba(0,0,0,0) !important;
+    color: white;
+}
+.logosAndSocialMedia{
+    height: auto;
+    width: auto;
+    text-align: center;
+    padding: 40px;
+    padding-bottom: 20px;
+}
+.btn-outline-success{
+    text-align: center;
+}
+#submitButton{
+    text-align: center;
+    padding: 20px;
+    border: 20px;
+}
+#copyRightSection{
+    padding: 20px;
+    margin: 10px;
 }
 

@@ -12,8 +12,8 @@ $(document).ready(function(){
         $("#paragraphProduct").toggle();
     });
     $(".workDone").hover(function(){
-        $(this).find(".hoverCaption").fadeIn(10);
+        $(this).find(".hoverCaption").fadeIn(60);
     }, function(){
-        $(this).find("hoverCaption").fadeOut(10);
+        $(this).find(".hoverCaption").fadeOut(30);
     });
 });
