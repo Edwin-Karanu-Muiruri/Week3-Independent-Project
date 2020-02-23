@@ -11,4 +11,9 @@ $(document).ready(function(){
         $("#imgProduct").toggle();
         $("#paragraphProduct").toggle();
     });
+    $(".workDone").hover(function(){
+        $(this).find(".hoverCaption").fadeIn(10);
+    }, function(){
+        $(this).find("hoverCaption").fadeOut(10);
+    });
 });

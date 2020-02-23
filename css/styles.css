@@ -71,4 +71,16 @@
     margin-left: 160px;
     margin-right: 60px;
 }
+.hoverCaption{
+    position: absolute;
+    text-align: center;
+    display: none;
+    background-color: white;
+    opacity: 0.5;
+}
+.hoverCaption p{
+    position: absolute;
+    color: black;
+    text-align: center;
+}
 
