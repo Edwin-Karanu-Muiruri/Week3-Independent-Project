@@ -62,4 +62,13 @@
 .services, .contact{
     color: white;
 }
+#paragraphDesign, #paragraphDev, #paragraphProduct{
+    display: none;
+}
+#portfolio{
+    text-align: center;
+    align-items: center;
+    margin-left: 160px;
+    margin-right: 60px;
+}
 
