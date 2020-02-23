@@ -149,11 +149,31 @@
             </div>
         </div>
     </div>
-    <div class="contactSection">
-        <h1 class="contact">CONTACT US</h1>
-        <textarea class="nameOfUser" cols="15" rows="2"></textarea>  <textarea class="emailOfUser" cols="15" rows="2"></textarea>
-        <textarea name="message" id="messageOfUser" cols="50" rows="19"></textarea>
+    <div class=" row contactSection">
+        <h2 class="contact"><b>CONTACT US</b></h2>
+        <div class="col-md-6">
+            <form>
+                <div class="form-group">
+                    <input type="text" class="form-control transparent-input" id="userName" placeholder="Name" name="contactName">
+                </div>
+            </form>
+        </div>
+        <div class="col-md-6">
+            <form>
+                <div class="form-group">
+                    <input type="email" class="form-control transparent-input" id="userEmail" placeholder="Email" name="contactEmail">
+                </div>
+            </form>
+        </div>
     </div>
+    <div class="col-md-12">
+        <form>
+            <div class="form-group">
+                <textarea class="form-control transparent-input" id="inputtedTextFromContactingUser" rows="10" placeholder="Type your message here..."></textarea>
+            </div>
+        </form>
+    </div>
+    <button type="button" class="btn btn-outline-success">Submit</button>
     <div class="logosAndSocialMedia">
 
     </div>
