@@ -7,8 +7,8 @@ $(document).ready(function(){
         $("#imgDev").toggle();
         $("#paragraphDev").toggle();
     });
-    $(".productIcon").click(function(){
-        $(".imgProduct").toggle();
-        $(".paragraphProduct").toggle();
+    $("#productIcon").click(function(){
+        $("#imgProduct").toggle();
+        $("#paragraphProduct").toggle();
     });
 });

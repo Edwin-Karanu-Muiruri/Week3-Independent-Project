@@ -62,7 +62,7 @@
 .services, .contact{
     color: white;
 }
-#paragraphDesign, #paragraphDev, .paragraphProduct{
+#paragraphDesign, #paragraphDev, #paragraphProduct{
     display:none;
 }
 #portfolio{
