@@ -36,8 +36,12 @@
     text-align: center;
 }
 #portfolio{
-    column-gap: 20px;
+    text-align: center;
+    align-items: center;
+    margin-left: 160px;
+    margin-right: 60px;
 }
+
 .col-md-2{
     padding: 10px;
     margin: 10px;
@@ -56,12 +60,6 @@
 }
 #paragraphDesign, #paragraphDev, #paragraphProduct{
     display:none;
-}
-#portfolio{
-    text-align: center;
-    align-items: center;
-    margin-left: 160px;
-    margin-right: 60px;
 }
 #contactSection, #userName, #userEmail, #inputtedTextFromContactingUser{
     color: white; 
