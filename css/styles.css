@@ -64,7 +64,7 @@
 #contactSection, #userName, #userEmail, #inputtedTextFromContactingUser{
     color: white; 
 }
-.form-group placeholder{
+.mc-field-group {
     color: white;
 }
 .hoverCaption{
@@ -92,27 +92,36 @@
     padding: 60px;
 }
 
-.transparent-input{
+#mce-MESSAGE, #mce-MMERGE1, #mce-EMAIL{
     background-color: rgba(0,0,0,0) !important;
     color: white;
 }
-.logosAndSocialMedia{
+#mce-MMERGE1{
+    width: 400px;
+    margin: 20px;
+}
+#mce-EMAIL{
+    width: 400px;
+    margin: 20px;
+}
+#mce-MESSAGE{
+    height: 300px;
+    width: 1000px;
+}
+::placeholder{
+    color: white;
+    opacity: 1;
+}
+#logosAndSocialMedia{
     height: auto;
     width: auto;
-    text-align: center;
     padding: 40px;
     padding-bottom: 20px;
-}
-.btn-outline-success{
-    text-align: center;
-}
-#submitButton{
-    text-align: center;
-    padding: 20px;
-    border: 20px;
+    align-items: center;
 }
 #copyRightSection{
     padding: 10px;
     margin: 10px;
+    text-align: center;
 }
 
