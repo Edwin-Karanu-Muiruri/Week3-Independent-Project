@@ -1,3 +1,6 @@
+function sendMessage(){
+    alert("Your message has been received.")
+};
 //The code below is the back-end code for functionanity of the website.
 $(document).ready(function(){
     $("#designIcon").click(function(){
