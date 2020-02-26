@@ -17,7 +17,6 @@ $(document).ready(function(){
     }, function(){
         $(this).find(".hoverCaption").fadeOut(30);
     });
-    
 });    
     
     //This is the front-end code below
